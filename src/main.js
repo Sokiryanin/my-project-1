@@ -1,1 +1,2 @@
-console.log('Script working');
+import './css/base/styles.css';
+import './js/utils/resnosiveType';

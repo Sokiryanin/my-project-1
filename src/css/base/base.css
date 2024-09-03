@@ -1,0 +1,74 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    min-width: var(--min-page-width);
+    max-width: var(--max-page-width);
+    font-family: Plus Jakarta;
+    font-weight: 400;
+    font-size: 18px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.page {
+    flex: 1 1 auto;
+}
+
+/* Block scroll */
+.lock {
+    overflow: hidden;
+    touch-action: none;
+    overscroll-behavior: none;
+}
+
+/* всі класи з приставкою __container  */
+[class*="__container"] {
+    max-width: var(--container-max-width);
+    margin: 0 auto;
+    padding-left: var(--container-padding);
+    padding-right: var(--container-padding);
+}
+
+@media (max-width: 1199.98px) {
+    [class*="__container"].breakpoint {
+        max-width: 970px;
+    }
+}
+
+@media (max-width: 990.98px) {
+    [class*="__container"].breakpoint {
+        max-width: 750px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    [class*="__container"].breakpoint {
+        max-width: 100%;
+        padding-left: calc(var(--container-padding) / 2);
+        padding-right: calc(var(--container-padding) / 2);
+    }
+
+}
