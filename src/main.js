@@ -1,5 +1,5 @@
 // Увімкнути/вимкнути FLS (Full Logging System) (в роботі)
-console.log('скріпт працює');
+
 window['FLS'] = true;
 import './scss/main.scss';
 
@@ -32,7 +32,7 @@ import * as mainFunctions from './js/functions.js';
 Модуль "Таби"
 Сніппет (HTML): tabs
 */
-mainFunctions.tabs();
+// mainFunctions.tabs();
 
 /*
 Модуль "Таби"
