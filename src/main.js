@@ -16,7 +16,7 @@ import * as mainFunctions from './js/functions.js';
 // mainFunctions.addLoadedClass();
 
 /* Модуль для роботи з меню (Бургер) */
-mainFunctions.menuInit();
+// mainFunctions.menuInit();
 
 /* Форматування чисел */
 // import './libs/wNumb.min.js';
@@ -30,10 +30,10 @@ mainFunctions.menuInit();
 
 /*
 Модуль "Таби"
-Документація: https://template.fls.guru/template-docs/modul-taby.html
 Сніппет (HTML): tabs
 */
 //mainFunctions.tabs();
+mainFunctions.horizontTabs();
 
 /*
 Модуль "Показати ще"

@@ -59,7 +59,7 @@ body {
     display: flex;
     flex-direction: column;
     overflow: hidden;
-
+    background: var(--first-color);
     @supports (overflow: clip) {
         overflow: clip;
     }
