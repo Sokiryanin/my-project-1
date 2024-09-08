@@ -32,8 +32,13 @@ import * as mainFunctions from './js/functions.js';
 Модуль "Таби"
 Сніппет (HTML): tabs
 */
-//mainFunctions.tabs();
-mainFunctions.horizontTabs();
+mainFunctions.tabs();
+
+/*
+Модуль "Таби"
+Сніппет (HTML): hzt
+*/
+// mainFunctions.horizontTabs();
 
 /*
 Модуль "Показати ще"
